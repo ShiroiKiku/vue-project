@@ -24,17 +24,17 @@ export default {
 
    
 <style lang="sass">
-// $content-color: #e8ecef
-// $menu-fc: #1e3a33
-// $one-color: #d8bebd
-// $two-color: #b4959b
-// $footer-color: #b9c0dc
-// $content-color: #e8ecef
-// $footer-text: #2949ad
-// $bor-menu-color: #cfb2b8
-// $new-con-color: #d6d6ee
-// $news-hover-color: #ffffff6e
-// $font-new-box: #080b27
+$content-color: #e8ecef
+$menu-fc: #1e3a33
+$one-color: #d8bebd
+$two-color: #b4959b
+$footer-color: #b9c0dc
+$content-color: #e8ecef
+$footer-text: #2949ad
+$bor-menu-color: #cfb2b8
+$new-con-color: #d6d6ee
+$news-hover-color: #ffffff6e
+$font-new-box: #080b27
 #app 
     font-family: 'Roboto', sans-serif
     -webkit-font-smoothing: antialiased
