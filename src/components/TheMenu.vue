@@ -91,19 +91,8 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style  lang="sass">
-$menu-fc: #1e3a33
-$one-color: #e8d0e6
-$two-color: #bdb3c5
-$footer-color: #b9c0dc
-$content-color: #e8ecef
-$footer-text: #2949ad
-$bor-menu-color: #bdb3c5
-$new-con-color: #d6d6ee
-$news-hover-color: #ffffff6e
-$font-new-box: #080b27
 
+<style  lang="sass">
 .menu
     border-bottom: 2px solid $bor-menu-color
     color: $menu-fc
@@ -122,7 +111,6 @@ $font-new-box: #080b27
         >li
             padding: 0 0.5rem
             height: 3rem
-
             display: flex
             justify-content: center
             &:hover

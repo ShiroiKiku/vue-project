@@ -1,6 +1,6 @@
 <template>
 <div class="new">
-    <div class="new__img">
+    <div class="new__img" vue-aspect-ratio ar="16:9">
         <img src="../assets/sereznye-seryj-kot.jpg" alt="">
     </div>
     <div class="new__content">
@@ -17,22 +17,19 @@
 </template>
 
 <script>
+import VueAspectRatio from "vue-aspect-ratio";
+ 
 export default {
-
+    name: "AmazingComponent",
+    props: [myprop],
+    components: {
+        "vue-aspect-ratio": VueAspectRatio
+    }
 }
+
 </script>
 
 <style lang="sass" scoped>
-$font-new-box: #080b27
-$new-con-color: #d6d6ee
-$news-hover-color: #ffffff6e
-
-.news
-    margin: 10px 0
-    background-color: $new-con-color
-    display: flex
-    flex-wrap: wrap
-    &__title
 .new
 
     position: relative
