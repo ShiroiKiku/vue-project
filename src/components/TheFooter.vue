@@ -45,7 +45,7 @@ $footer-text: #2949ad
 $footer-color: #b9c0dc
 .footer
     background-color: $footer-color
-    &__link
+    
 
     &__list
         display: flex

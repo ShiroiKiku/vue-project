@@ -5,7 +5,6 @@ import router from '@/router/router'
 // import store from './store'
 
  
-Vue.component("vue-aspect-ratio", VueAspectRatio)
 
 const app = createApp(App)
 

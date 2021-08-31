@@ -83,12 +83,7 @@
 </template>
 
 <script>
-export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
-  }
-}
+
 </script>
 
 
@@ -107,7 +102,7 @@ export default {
         margin: 0
         justify-content: center
         align-items: center
-        &:hover
+        
         >li
             padding: 0 0.5rem
             height: 3rem

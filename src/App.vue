@@ -24,8 +24,8 @@ export default {
    
 <style lang="sass">
 .container
-    min-width: 100%
-    background-color: $back-color
+    width: 90%
+    max-width: 1700px
     flex: 1 1 auto
     margin: 0 auto
 
