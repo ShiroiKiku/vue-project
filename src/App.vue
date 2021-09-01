@@ -28,5 +28,9 @@ export default {
     max-width: 1700px
     flex: 1 1 auto
     margin: 0 auto
+    >div
+        margin: 10px 0px
+        box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5)
+        background-color: $box-color
 
 </style>

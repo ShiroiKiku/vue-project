@@ -41,8 +41,7 @@ export default {
 </script>
 
 <style lang="sass">
-$footer-text: #2949ad
-$footer-color: #b9c0dc
+
 .footer
     background-color: $footer-color
     
@@ -55,8 +54,6 @@ $footer-color: #b9c0dc
 
         justify-content: center
         align-items: center
-    a
-        color: $footer-text
     li
         overflow: hidden
         padding: 0rem 0.5rem

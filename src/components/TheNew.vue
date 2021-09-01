@@ -23,17 +23,14 @@
 
 <style lang="sass" scoped>
 .new
-
     position: relative
-    margin: 7px
-
-    flex: 1 0 30%
+    // margin: 7px
+    flex: 1 1 33.33%
     &:hover
         .new__content
             opacity: 1
             transition: 1s
     
-
     &__content
         padding: 10px
         opacity: 0
@@ -41,20 +38,16 @@
         position: absolute
         bottom: 0
 
-    
-
     &__img
+        
         aspect-ratio:16/9
+        
         padding: 0
         img
             width: 100%
-            height: 100%
-
             object-fit: cover
             padding: 0
     &__title
         p
             font-weight: 600
-    p
-        color: $font-new-box
 </style>

@@ -90,11 +90,9 @@
 <style  lang="sass">
 .menu
     border-bottom: 2px solid $bor-menu-color
-    color: $menu-fc
+  
     background-color: $one-color
     height: 3rem
-    a
-        color: $menu-fc
     &__list
         padding: 0
         height: 3rem
@@ -112,6 +110,7 @@
                 background-color: $two-color
                 .sub-menu
                     &__list
+                        z-index: 10
                         display: block
     &__link
         line-height: 3rem
