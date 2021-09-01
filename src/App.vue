@@ -24,11 +24,14 @@ export default {
    
 <style lang="sass">
 .container
-    width: 90%
+    width: 85%
     max-width: 1700px
     flex: 1 1 auto
     margin: 0 auto
+    display: flex
+    flex-wrap: wrap
     >div
+        flex-basis:100%
         margin: 10px 0px
         box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5)
         background-color: $box-color

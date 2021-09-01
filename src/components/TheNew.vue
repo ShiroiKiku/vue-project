@@ -22,10 +22,13 @@
 </script>
 
 <style lang="sass" scoped>
+
 .new
+    margin: 5px
     position: relative
     // margin: 7px
-    flex: 1 1 33.33%
+    flex: 1 1 31%
+    
     &:hover
         .new__content
             opacity: 1
@@ -39,14 +42,17 @@
         bottom: 0
 
     &__img
-        
+        margin: 0
         aspect-ratio:16/9
-        
         padding: 0
         img
             width: 100%
             object-fit: cover
             padding: 0
+            display: block
+            max-width: 100%
+            margin-left: auto
+            margin-right: auto
     &__title
         p
             font-weight: 600
