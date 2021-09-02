@@ -1,25 +1,26 @@
 <template>
-<div class="new">
-    <div class="new__img" >
-        <img src="../assets/sereznye-seryj-kot.jpg" alt="">
+  <div class="new">
+    <div class="new__img">
+      <img src="../assets/sereznye-seryj-kot.jpg" alt="" />
     </div>
     <div class="new__content">
-        <div class="new__title">
-            <p>Lorem ipsum dolor sit.</p>
-        </div>
-        <div class="new__htext">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam molestiae esse dolores ratione voluptas voluptate officiis quo explicabo temporibus corporis.</p>   
-        </div>
+      <div class="new__title">
+        <p>Lorem ipsum dolor sit.</p>
+      </div>
+      <div class="new__htext">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam
+          molestiae esse dolores ratione voluptas voluptate officiis quo
+          explicabo temporibus corporis.
+        </p>
+      </div>
 
-        <input type="button" class="new__btn" value="Просмотреть">
+      <input type="button" class="new__btn" value="Просмотреть" />
     </div>
-</div>
+  </div>
 </template>
 
-<script>
-
-
-</script>
+<script></script>
 
 <style lang="sass" scoped>
 
@@ -28,12 +29,12 @@
     position: relative
     // margin: 7px
     flex: 1 1 31%
-    
+
     &:hover
         .new__content
             opacity: 1
             transition: 1s
-    
+
     &__content
         padding: 10px
         opacity: 0

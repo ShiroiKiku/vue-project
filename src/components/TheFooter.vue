@@ -1,51 +1,45 @@
 <template>
   <footer class="footer">
-  
-        <div class="footer__row">
-            <ul class="footer__list">
-                <li>
-                    <a href="" class="footer__link">
-                        Важные новости
-                    </a>
-                </li>
-                <li>
-                    <a href="" class="footer__link">
-                        Важные новости
-                    </a>
-                </li>
-                <li>
-                    <a href="" class="footer__link">
-                        Важные новости
-                    </a>
-                </li>
-                <li>
-                    <a href="" class="footer__link">
-                        Важные новости
-                    </a>
-                </li>
-                <li>
-                    <a href="" class="footer__link">
-                        Важные новости
-                    </a>
-                </li>
-            </ul>
-        </div>
- 
-</footer>
+    <div class="footer__row">
+      <ul class="footer__list">
+        <li>
+          <a href="" class="footer__link">
+            Важные новости
+          </a>
+        </li>
+        <li>
+          <a href="" class="footer__link">
+            Важные новости
+          </a>
+        </li>
+        <li>
+          <a href="" class="footer__link">
+            Важные новости
+          </a>
+        </li>
+        <li>
+          <a href="" class="footer__link">
+            Важные новости
+          </a>
+        </li>
+        <li>
+          <a href="" class="footer__link">
+            Важные новости
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
 <style lang="sass">
 
 .footer
     background-color: $footer-color
-    
-
     &__list
         display: flex
         position: relative
