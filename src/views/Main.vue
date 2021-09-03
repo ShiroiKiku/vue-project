@@ -1,49 +1,37 @@
 <template>
-
   <par-title>
     Добро пожаловать на сайт ГУК "Областная специальная библиотека для
     слепых"
   </par-title>
+
   <slider :item_data="sliderItems" />
-  <!-- <split-carousel :carousel_data="sliderItems" /> -->
-  <div class="box-news">
-    <div class="news">
-      <the-new
-        v-for="item in 2"
-        :key="item"
-      ></the-new>
-    </div>
-    <div class="news">
-      <the-new
-        v-for="item in 2"
-        :key="item"
-      ></the-new>
-    </div>
-  </div>
+
+  <search-box />
 
   <par-title> Новости </par-title>
-  <div class="news">
-    <the-new
-      v-for="item in 4"
-      :key="item"
-    ></the-new>
-  </div>
+
+  <the-new
+    v-for="item in 8"
+    :key="item"
+  ></the-new>
 
   <par-title> Дополнительная информация </par-title>
+
   <information-image />
+
   <information-list />
 </template>
 
 <script>
 import InformationImage from '../components/InformationImage.vue'
 import InformationList from '../components/InformationList.vue'
+import SearchBox from '../components/SearchBox.vue'
 import TheNew from "../components/TheNew.vue"
 import ParTitle from "../components/UI/ParTitle.vue"
 import Slider from '../components/UI/Slider.vue'
-import SplitCarousel from "../components/UI/SplitCarousel.vue"
 
 export default {
-  components: { ParTitle, TheNew, SplitCarousel, Slider, InformationImage, InformationList },
+  components: { ParTitle, TheNew, Slider, InformationImage, InformationList, SearchBox },
   data() {
     return {
       sliderItems: [
@@ -74,15 +62,9 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-.container
-  >div:nth-of-type(2)
-    flex-basis: 48.995%
-    margin: 5px 10px 5px 0
-  >div:nth-of-type(3)
-    flex-basis: 48.995%
-    margin: 5px 0 5px 10px
-.news
-  background-color: $box-color
-  display: flex
-  flex-wrap: nowrap
+.slider
+  flex-basis: 50%
+.search-box
+  margin-left: 10px
+  flex-basis: calc(50% - 20px )
 </style>

@@ -72,7 +72,7 @@ export default {
     max-width: 100%
     margin-left: auto
     margin-right: auto
-    aspect-ratio: 16/10
+    aspect-ratio: 16/9
     width: 100%
     vertical-align: middle
   &__btn
