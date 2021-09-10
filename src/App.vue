@@ -1,4 +1,5 @@
 <template>
+  <g-header />
   <the-menu />
   <div class="container">
     <router-view></router-view>
@@ -9,21 +10,22 @@
 <script>
 import TheMenu from "./components/TheMenu.vue";
 import TheFooter from "./components/TheFooter.vue";
+import GHeader from './components/GHeader.vue';
 
 export default {
-  components: { TheMenu, TheFooter },
+  components: { TheMenu, TheFooter, GHeader },
 };
 </script>
 
 <style lang="sass">
 .container
-  width: 80%
+  width: 95%
   max-width: 1500px
   flex: 1 1 auto
   margin: 0 auto
   display: flex
   flex-wrap: wrap
-  padding: 25px 0
+  padding: 25px 0px
   >div
     flex-basis: 100%
     margin: 10px 0px

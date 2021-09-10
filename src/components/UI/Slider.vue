@@ -64,7 +64,7 @@ export default {
 <style lang="sass" scoped>
 .slider
   position: relative
-  padding: 5px
+  // padding: 5px
   overflow: hidden
   >img
 
@@ -72,11 +72,12 @@ export default {
     max-width: 100%
     margin-left: auto
     margin-right: auto
-    aspect-ratio: 16/9
+    aspect-ratio: 32/9
     width: 100%
     vertical-align: middle
+    object-fit: cover
   &__btn
-    margin: 5px
+    // margin: 5px
     border: 0
     outline: 0
     outline-offset: 0

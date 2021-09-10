@@ -1,6 +1,6 @@
 <template>
   <div class="search-box">
-    <input-simple></input-simple>
+    <!-- <input-simple></input-simple> -->
     <search-box-list />
   </div>
 </template>
@@ -16,6 +16,6 @@ export default {
 
 <style lang="sass" scoped>
 .search-box
-    >.input-simple
-        margin: 5px
+  >.input-simple
+    margin: 5px
 </style>

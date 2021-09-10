@@ -23,16 +23,17 @@ export default {
 
 <style lang="sass" scoped>
 .information-image
-    flex-basis: 30%
-    &__img
-        margin: 5px
+  flex-basis: 30%
 
-        img
-            aspect-ratio: 15/10
-            width: 100%
-            padding: 0
-            display: block
-            max-width: 100%
-            margin-left: auto
-            margin-right: auto
+  &__img
+    margin: 5px
+
+    img
+      aspect-ratio: 15/10
+      width: 100%
+      padding: 0
+      display: block
+      max-width: 100%
+      margin-left: auto
+      margin-right: auto
 </style>

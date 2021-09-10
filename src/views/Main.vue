@@ -1,12 +1,5 @@
 <template>
-  <par-title>
-    Добро пожаловать на сайт ГУК "Областная специальная библиотека для
-    слепых"
-  </par-title>
-
   <slider :item_data="sliderItems" />
-
-  <search-box />
 
   <par-title> Новости </par-title>
 
@@ -20,18 +13,34 @@
   <information-image />
 
   <information-list />
+  <other-links />
+
+  <a
+    class="a-btn"
+    href=""
+  >
+    <the-button value="Оценка качества услуг" />
+  </a>
+  <a
+    class="a-btn"
+    href=""
+  >
+    <the-button value="Задать вопрос" />
+  </a>
+
 </template>
 
 <script>
 import InformationImage from '../components/InformationImage.vue'
 import InformationList from '../components/InformationList.vue'
-import SearchBox from '../components/SearchBox.vue'
+import OtherLinks from '../components/OtherLinks.vue'
 import TheNew from "../components/TheNew.vue"
 import ParTitle from "../components/UI/ParTitle.vue"
 import Slider from '../components/UI/Slider.vue'
+import TheButton from '../components/UI/TheButton.vue'
 
 export default {
-  components: { ParTitle, TheNew, Slider, InformationImage, InformationList, SearchBox },
+  components: { ParTitle, TheNew, Slider, InformationImage, InformationList, OtherLinks, TheButton },
   data() {
     return {
       sliderItems: [
@@ -62,9 +71,6 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-.slider
-  flex-basis: 50%
-.search-box
-  margin-left: 10px
-  flex-basis: calc(50% - 20px )
+.a-btn
+  margin: 5px
 </style>
